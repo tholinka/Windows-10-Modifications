@@ -1,0 +1,3 @@
+Press Control+T in windows store to enable dark theme: Doesn't appear to work on release windows 10
+
+In edge go to settings -> theme -> dark
