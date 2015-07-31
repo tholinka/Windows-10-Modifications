@@ -4,7 +4,7 @@ Feel free to contribute!
 
 # Current Modifications
 ## Add Colored Border
-An example of this: [active](http://www.tenforums.com/attachments/tutorials/23642d1436302676-color-window-borders-title-bars-change-windows-10-a-active.png), vs [inactive](http://www.tenforums.com/attachments/tutorials/23641d1436302676-color-window-borders-title-bars-change-windows-10-a-inactive.png).
+An [example](http://www.tenforums.com/attachments/tutorials/23632d1436299421-color-window-borders-title-bars-change-windows-10-a-themes_for_all_users.png) of this
 
 ## Disable Data Logging
 This disables most data logging, can also optionally disable OneDrive, Windows Defender, and p2p updates.
