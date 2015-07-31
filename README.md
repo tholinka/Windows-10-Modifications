@@ -1,2 +1,16 @@
-# Windows-10-Modifications
-Modifications that can be made to Windows 10
+# Windows 10 Modifications
+A List of Modifications that can be made to Windows 10, including links to necissary files and the steps to complete them.
+Feel free to contribute!
+
+#Current Modifications
+##Add Colored Border
+An example of this: [active](http://www.tenforums.com/attachments/tutorials/23642d1436302676-color-window-borders-title-bars-change-windows-10-a-active.png), vs [inactive](http://www.tenforums.com/attachments/tutorials/23641d1436302676-color-window-borders-title-bars-change-windows-10-a-inactive.png).
+
+##Disable Data Logging and reenable going directly to files from search
+This disables most data logging, but goes a bit overboard, you may possibly want to leave Ondrive, p2p updates, and Windows Defender enabled.
+
+## 'Fix' Photo Viewer
+Photo Viewer does not have the correct registry entries to work properly, this fixes it.
+
+## Windows 10 Dark Theme Enable and Disable
+It doesn't work as well as it did in the beta, but it still modifies the notifcation area and other places.
