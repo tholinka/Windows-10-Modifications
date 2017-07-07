@@ -1,0 +1,3 @@
+[submodule "DisableWinTracking"]
+	path = DisableWinTracking
+	url = https://github.com/10se1ucgo/DisableWinTracking.git
