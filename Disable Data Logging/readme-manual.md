@@ -1,15 +1,15 @@
-#Disable Data Logging
+# Disable Data Logging
 This disables most data logging, and through disabling web search also makes search behave similarly to Windows 7
 
-##Steps
+## Steps
 There's been a lot of commotion over W10's privacy terms. I'm sure these methods can change/improve at any time, but here's a guide which should hopefully give you a relatively more private, safe experience, however at the risk of not being able to enjoy some of W10's features.
 
-###Before/During Installation**
+### Before/During Installation**
 
 * Do **not** use *Express Settings*. Hit *Customize*, and make sure everything is turned off.
 * It's strongly preferred that you use a **local account** with Windows 10.
 
-###After Installation
+### After Installation
 
 * Head to *Settings &gt; Privacy*, and disable **everything**, unless there are some things you really need.
 
@@ -19,7 +19,7 @@ There's been a lot of commotion over W10's privacy terms. I'm sure these methods
 
 * Change the name of your PC by going to Start (or hitting the Windows key), typing *About PC*, and clicking *Rename PC*.
 
-###Slightly Complex
+### Slightly Complex
 
 * Open up the *Command Prompt* by launching **cmd** as an administrator, and enter the following:
 
@@ -37,7 +37,7 @@ There's been a lot of commotion over W10's privacy terms. I'm sure these methods
 
 * First, run InstallTakeOwnership.reg. Then, head to the *Hosts File* by going through *C:\Windows\System32\Drivers\Etc*, take ownership of the *hosts* file, and add all of the IPs from ips.txt
 
-###Optional
+### Optional
 * Disable web search in Search by going to Settings, and turning off *Search online and include web results*.
 
 * Head to *Settings &gt; Update and Security &gt; Advanced Options &gt; Choose how updates are delivered*, and turn the first switch off.
