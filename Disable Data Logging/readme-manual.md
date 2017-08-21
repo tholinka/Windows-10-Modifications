@@ -21,20 +21,19 @@ There's been a lot of commotion over W10's privacy terms. I'm sure these methods
   > sc delete dmwappushservice
   >
   > echo "" > C:\ProgramData\Microsoft\Diagnosis\ETLLogs\AutoLogger\AutoLogger-Diagtrack-Listener.etl
-
 * Open up the ```Group Policy Editor``` by launching ```gpedit.msc``` as an administrator. Go through ```Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds```. Double click ```Telemetry```, hit **Disabled**, then apply.
-  * **NOTE: This only *truly* works in the Enterprise edition, but the final step provides a decent enough workaround for Pro users.**
-
+  * **NOTE:** This only *truly* works in the Enterprise edition, but the final step provides a decent enough workaround for Pro users.
 * Open up the ```Registry Editor``` by launching ```regedit``` as an administrator. Go through ```HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection```, select ```AllowTelemetry```, change its value to **0**, then apply.
-
 * First, run InstallTakeOwnership.reg. Then, head to the ```hosts``` file by going through ```C:\Windows\System32\Drivers\Etc```, take ownership of the ```hosts``` file, and add all of the IPs from ips.txt
 
 ### Optional
 * Disable web search in Search by going to Settings, and turning off ```Search online``` and include ```web results```.
   * Note: this doesn't work in the "creators" update, see the main readme for the new way to do this.
 * Head to ```Settings > Update and Security > Advanced Options > Choose how updates are delivered```, and turn the first switch **off**.
-* While still in the ```Group Policy Editor```, go through ```Computer Configuration > Administrative Templates > Windows Components > OneDrive```, double click ```Prevent the usage of OneDrive for file storage```, hit **Enabled**, then apply. **NOTE: This disables OneDrive**
-* While still in the ```Group Policy Editor```, go through ```Computer Configuration > Administrative Templates > Windows Components > Windows Defender```, double click ```Turn Off Windows Defender```, hit **Enabled**, then apply. **NOTE: This disables Windows Defender**
+* While still in the ```Group Policy Editor```, go through ```Computer Configuration > Administrative Templates > Windows Components > OneDrive```, double click ```Prevent the usage of OneDrive for file storage```, hit **Enabled**, then apply. 
+  * **NOTE:** This disables OneDrive
+* While still in the ```Group Policy Editor```, go through ```Computer Configuration > Administrative Templates > Windows Components > Windows Defender```, double click ```Turn Off Windows Defender```, hit **Enabled**, then apply. 
+  * **NOTE:** This disables Windows Defender
 * Replace Microsoft Edge/Internet Explorer with **Firefox**, **Chromium**, or any forks/variations of them.
 * Replace Windows Media Player with **VLC** or **MPC-HC**
 * Replace Groove Music with **Foobar2000**, **Winamp**, or **MusicBee**.
