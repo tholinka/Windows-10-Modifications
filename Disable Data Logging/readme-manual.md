@@ -16,11 +16,11 @@ There's been a lot of commotion over W10's privacy terms. I'm sure these methods
 
 ### Slightly Complex
 * Open up the *Command Prompt* by launching **cmd** as an administrator, and enter the following:
-> sc delete DiagTrack
->
-> sc delete dmwappushservice
->
-> echo "" > C:\ProgramData\Microsoft\Diagnosis\ETLLogs\AutoLogger\AutoLogger-Diagtrack-Listener.etl
+  > sc delete DiagTrack
+  >
+  > sc delete dmwappushservice
+  >
+  > echo "" > C:\ProgramData\Microsoft\Diagnosis\ETLLogs\AutoLogger\AutoLogger-Diagtrack-Listener.etl
 
 * Open up the ```Group Policy Editor``` by launching ```gpedit.msc``` as an administrator. Go through ```Computer Configuration > Administrative Templates > Windows Components > Data Collection and Preview Builds```. Double click ```Telemetry```, hit **Disabled**, then apply.
   * **NOTE: This only *truly* works in the Enterprise edition, but the final step provides a decent enough workaround for Pro users.**
