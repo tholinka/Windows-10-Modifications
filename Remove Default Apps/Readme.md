@@ -1,14 +1,14 @@
-#Remove Default Aps
+# Remove Default Aps
 This is basically the same process as in Windows 8.
 
-##Remove All Modern Apps That Can be
+## Remove All Modern Apps That Can be
 Open Powershell with Administrator Permissions, and enter the following.
 
 ```powershell
 Get-AppxPackage * | Remove-AppxPackage
 ```
 
-##Remove Only Some Modern Apps
+## Remove Only Some Modern Apps
 Copy the following Code Powershell, it removes 3D Printing, the Xbox app, the Money/Sports/News/Weather (Bing) apps, the Music and TV/Videos app, the Photos app, the Mail/Calendar app, the Solitaire app, the Phone app, the Voice Recorder app, the Camera app, the People app, and the Map app.
 
 ```powershell
