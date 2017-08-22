@@ -21,3 +21,4 @@ Things DisableWinTracking doesn't do:
   * Set ```Don't search the web or display web results in Search``` to **Enabled**
   * Click apply
 * Replace default apps, e.g. ```Edge``` with ```Chrome```, ```Windows Media Player``` with VLC, ```Groove``` with ```Foobar2000```
+* Disable auto updates, open ```gpedit``` and go to ```Computer Configuration > Administrative Templates > Windows Components > Windows Update``` find ```Configure Automatic Updates``` and set it to **Enabled** and set it to ```2 - Notify for download and auto install```
